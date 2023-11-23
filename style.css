@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho {
+   background-image: linear-gradient(rgb(55, 0, 255), rgb(55, 0, 255));
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cabeçalho-imagem{
+    width: 20%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 18px;
+}
+.fotolivro{
+    width: 500px;
+    padding: 0 15px;
+}
+
+.Corpo{
+    background-image: linear-gradient(rgb(55, 0, 255),#ffc2eb);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Corpo-Div{
+    width: 30%;
+}
+
+.Corpo-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.Corpo-texto1{
+    font-size: large;
+}
+
+.rodape{
+    background-color: #000000;
+    text-align: center;
+}
+
+.rodape-img{
+    height: 25px;
+}
